@@ -1,0 +1,16 @@
+@import "~styles/variables";
+
+.profileContainer {
+  margin: $small auto;
+  max-width: $maxWidth;
+
+  .name {
+    font-size: $header;
+    text-align: center;
+  }
+
+  .subtitle {
+    font-size: $standard;
+    text-align: center;
+  }
+}

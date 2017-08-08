@@ -1,0 +1,21 @@
+@import "~styles/variables";
+
+.button {
+  background: $grayLight;
+  border: 2px solid white;
+  border-radius: $borderRadius;
+  color: $secondaryDark;
+  font-size: $standard;
+  margin: auto $extraSmall;
+  outline: none;
+  padding: 12px 20px;
+
+  &:disabled {
+    background: $grayExtraLight;
+    color: $grayLight;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+}
